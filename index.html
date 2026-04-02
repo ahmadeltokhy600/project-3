@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href=" c:\Users\HP\Desktop\Safe Zone\CODE CAMB\انجازات اختبارك\ex3\exam-css.css">
+
+  </head>
+<body>
+<nav id="navbar">
+ <img src="https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png" alt="python-logo" id="img-logo">
+  <header><span class="NAV_hd">Technical Documentation</span></header>
+<a href="#Definition_of_the_Python_programming_language" class="nav-link">Definition of the Python programming language</a>
+<a href="#Python_Name_and_Influence" class="nav-link">Python Name and Influence</a>
+<a href="#Guido_van_Rossum_and_BDFL" class="nav-link">Guido van Rossum and BDFL</a>
+<a href="#Python_2.0_Features" class="nav-link">Python 2.0 Features</a>
+<a href="#Python_3.0_Release" class="nav-link">Python 3.0 Release</a>
+ 
+</nav>
+
+<main id="main-doc">
+<section class="main-section" id="Definition_of_the_Python_programming_language">
+<header class="python-hd">Definition of the Python programming language</header>
+<hr>
+<p>The Python programming language was designed in the late 1980s and its implementation began in December 1989 by Guido van Rossum at CWI in the Nether</p>
+<p>lands as a backend for ABC, capable of handling exceptions and interacting with the Amoeba operating system.<p>
+
+<ul>
+<li><code>print("Hello World")</code></li>
+</ul>
+
+</section>
+<hr>
+<section class="main-section" id="Python_Name_and_Influence">
+  <header>Python Name and Influence</header>
+<p>Python is named after the BBC television program Monty Python, the Flying Circus.</p>
+<p>The language emphasizes simplicity and readability, which has influenced its widespread adoption.</p>
+
+
+<ul>
+<li><code># Python is named after Monty Python's Flying Circus
+# The language emphasizes simplicity and readability
+
+def greet(name):
+    message = f"Hello, {name}! Python is simple and readable."
+    return message
+
+# Using the function
+print(greet("World"))
+
+# A clear loop example
+languages = ["Python", "JavaScript", "C++"]
+for lang in languages:
+    print(f"I enjoy learning {lang}") </code> </li>
+</ul>
+</section>
+<hr>
+<section class="main-section" id="Guido_van_Rossum_and_BDFL">
+<header>Guido van Rossum and BDFL</header>
+<p>Van Rossum is the principal author of Python, and his continued central role in shaping Python's direction</p>
+<p>is reflected in the title given to him by the Python community: Benevolent Dictator for Life (BDFL). However, van Rossum stepped down from his leadership position on July 12, 2018.</p>
+
+<ul>
+<li><code># Guido van Rossum is the principal author of Python
+# He was known as the Benevolent Dictator for Life (BDFL)
+
+class PythonCommunity:
+    def __init__(self):
+        self.leader = "Guido van Rossum"
+        self.title = "Benevolent Dictator for Life (BDFL)"
+    
+    def step_down(self, year):
+        print(f"{self.leader} stepped down from leadership in {year}.")
+
+# Create community object
+community = PythonCommunity()
+
+# Show leader info
+print(f"Leader: {community.leader}")
+print(f"Title: {community.title}")
+
+# Show when he stepped down
+community.step_down(2018)</code></li>
+</ul>
+</section>
+<hr>
+<section class="main-section" id="Python_2.0_Features">
+<header>Python 2.0 Features</header>
+<p>Python 2.0 was released on October 16, 2000, with several major new features, including a session-detecting garbage collector (as well as reference counting) for memory management and Unicode support.</p>
+<p>The most significant change was in the development process itself, with a shift to a more transparent and community-driven approach.</p>
+
+<ul>
+<li><code># Python 2.0 introduced garbage collection and Unicode support
+
+import gc
+
+# Enable automatic garbage collection
+gc.enable()
+
+# Example of Unicode support
+text = "مرحبا بالعالم"  # Arabic text (Hello World)
+print(text)
+
+# Demonstrating reference counting
+numbers = [1, 2, 3]
+print(f"Reference count for numbers object: {gc.get_referrers(numbers)}")</code></li>
+</ul>
+</section>
+<hr>
+<section class="main-section" id="Python_3.0_Release">
+<header>Python 3.0 Release</header>
+<p>Python 3.0, a major, non-backward-compatible release, was released on December 3, 2008, after a lengthy testing period.</p>
+<p>Many of its key features were also carried over to the backward-compatible versions 2.6 and 2.7, although not all of them were compatible with Python 3.0.</p>
+
+<ul>
+<li><code># Example showing Python 2 vs Python 3 differences
+
+# In Python 2, print was a statement:
+# print "Hello World"
+
+# In Python 3, print is a function:
+print("Hello World")
+
+# Python 3 also improved Unicode support:
+text = "こんにちは世界"  # Japanese for "Hello World"
+print(text)
+
+# Division behavior changed:
+print(5 / 2)   # In Python 3 → 2.5 (true division)
+print(5 // 2)  # Floor division → 2</code></li>
+</ul>
+</section>
+<hr>
+</main>
+</body>
+</html>
